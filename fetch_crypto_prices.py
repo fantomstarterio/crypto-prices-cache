@@ -3,8 +3,11 @@ import json
 import os
 from datetime import datetime
 
+# Get BASE_URL from environment variable
+BASE_URL = os.getenv('BASE_URL')
+
 def fetch_crypto_prices():
-    url = "https://api.coingecko.com/api/v3/simple/price?ids=dai,ethereum,bitcoin&vs_currencies=usd"
+    url = f"{BASE_URL}/simple/price?ids=dai,ethereum,bitcoin&vs_currencies=usd"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()

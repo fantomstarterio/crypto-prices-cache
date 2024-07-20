@@ -21,6 +21,8 @@ jobs:
         run: pip install requests
 
       - name: Fetch Crypto Prices
+        env:
+            BASE_URL: ${{ secrets.BASE_URL }}
         run: |
           python fetch_crypto_prices.py
         continue-on-error: true
@@ -51,6 +53,8 @@ jobs:
         run: pip install requests
 
       - name: Fetch Crypto Prices
+        env:
+            BASE_URL: ${{ secrets.BASE_URL }}
         run: |
           python fetch_crypto_prices.py
         continue-on-error: true
