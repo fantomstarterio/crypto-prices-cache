@@ -1,4 +1,4 @@
-# Crypto Price Fetcher
+# Coin Gecko Prices Cache
 
 This project fetches cryptocurrency prices (Bitcoin, Ethereum, and DAI) from the CoinGecko API every hour and commits the data to this repository. It uses GitHub Actions to automate the process.
 
