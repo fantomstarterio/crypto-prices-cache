@@ -19,8 +19,8 @@ This project fetches cryptocurrency prices (Bitcoin, Ethereum, and DAI) from the
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/crypto-price-fetcher.git
-   cd crypto-price-fetcher
+   git clone git@github.com:drikusroor/coin-gecko-prices-cache.git
+   cd coin-gecko-prices-cache
     ```
 
 2. Install the required Python packages:
@@ -49,7 +49,7 @@ If the workflow fails, it will retry after 5 minutes.
 
 ## Usage
 
-You can use the crypto_prices.json file in your application to get the latest cryptocurrency prices without hitting the CoinGecko API directly. This helps to avoid rate limiting issues.
+You can use the raw [crypto_prices.json](https://raw.githubusercontent.com/drikusroor/coin-gecko-prices-cache/main/crypto_prices.json) file in your application to get the latest cryptocurrency prices without hitting the CoinGecko API directly. This helps to avoid rate limiting issues.
 
 ## Customization
 
