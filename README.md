@@ -1,6 +1,6 @@
-# Coin Gecko Prices Cache
+# Crypto Prices Cache
 
-This project fetches cryptocurrency prices (Bitcoin, Ethereum, and DAI) from the CoinGecko API every hour and commits the data to this repository. It uses GitHub Actions to automate the process.
+This project fetches cryptocurrency prices (Bitcoin, Ethereum, and DAI) from a public crypto prices API every hour and commits the data to this repository. It uses GitHub Actions to automate the process.
 
 ## Files
 
@@ -19,8 +19,8 @@ This project fetches cryptocurrency prices (Bitcoin, Ethereum, and DAI) from the
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:drikusroor/coin-gecko-prices-cache.git
-   cd coin-gecko-prices-cache
+   git clone git@github.com:fantomstarterio/crypto-prices-cache.git
+   cd crypto-prices-cache
     ```
 
 2. Install the required Python packages:
@@ -49,7 +49,7 @@ If the workflow fails, it will retry after 5 minutes.
 
 ## Usage
 
-You can use the raw [crypto_prices.json](https://raw.githubusercontent.com/drikusroor/coin-gecko-prices-cache/main/crypto_prices.json) file in your application to get the latest cryptocurrency prices without hitting the CoinGecko API directly. This helps to avoid rate limiting issues.
+You can use the raw [crypto_prices.json](https://raw.githubusercontent.com/fantomstarterio/crypto-prices-cache/main/crypto_prices.json) file in your application to get the latest cryptocurrency prices without hitting the public API directly. This helps to avoid rate limiting issues.
 
 ## Customization
 
