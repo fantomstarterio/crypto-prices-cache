@@ -1,11 +1,11 @@
 {
-    "ethereum": {
-        "usd": 1857.62
+    "bitcoin": {
+        "usd": 63921
     },
     "dai": {
-        "usd": 1.0
+        "usd": 0.999772
     },
-    "bitcoin": {
-        "usd": 63971
+    "ethereum": {
+        "usd": 1856.37
     }
 }
